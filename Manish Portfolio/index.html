@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <style>
+        /* Change all blue text to black */
+        a, h3, .timeline-date, .skill-category h3, .certification-card h3 {
+            color: #000000 !important;
+        }
+        
+        /* Ensure project tech spans are black */
+        .project-tech span {
+            color: #000000 !important;
+        }
+        
+        /* Make sure links in navigation are black */
+        nav a {
+            color: #000000 !important;
+        }
+        
+        /* Override any blue hover effects */
+        a:hover, nav a:hover {
+            color: #333333 !important;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Alladi Manish</h1>
+            <p>AI/ML Engineer</p>
+            <div class="header-actions">
+                <nav>
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certifications">Certifications</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <img src="Manish.jpg" alt="Manish's Image" class="profile-pic">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p class="about-text">
+                    I am an aspiring AI/ML engineer with hands-on experience in machine learning, deep learning, and cloud technologies. Skilled in Python and Java, I have developed real-world projects using CNNs and Swin Transformers. Certified by Teachnook, IBM, and NPTEL, I bring strong problem-solving abilities, teamwork, and a passion for innovation.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="timeline-date">October(2024)</div>
+                    <div class="timeline-content">
+                        <div class="company-logo">🌐</div>
+                        <h3>Machine Learning Internship</h3>
+                        <h4>IBM</h4>
+                        <ul>
+                            <li> Gained practical experience in key machine learning concepts, including data preprocessing, model evaluation, and hyperparameter tuning</li>
+                            <li>Worked on supervised and unsupervised learning algorithms to develop predictive models using Python</li> 
+                            <li>Collaborated with instructors and peers to refine problem-solving strategies and enhance model performance</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="experience-card">
+                    <div class="timeline-date">March-April(2024)</div>
+                    <div class="timeline-content">
+                        <div class="company-logo">💻</div>
+                        <h3>Machine Learning Internship</h3>
+                        <h4>Teachnook</h4>
+                        <ul>
+                            <li>Gained hands-on experience with key machine learning concepts, including supervised and unsupervised learning, model
+                                evaluation, and feature engineering
+                                Collaborated with mentors and peers to enhance problem-solving skills and develop efficient models using Python.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul class="skills-list">
+                        <li>C</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Core Domain-Skills</h3>
+                    <ul class="skills-list">
+                        <li>Machine Learning</li>
+                        <li>Deep Learning</li>
+                        <li>Computer Vision</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Devlopment Skills</h3>
+                    <ul class="skills-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Java Script</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <ul class="skills-list">
+                        <li>MySQL</li>
+                        <li>Git & GitHub</li>
+                        <li>VS Code</li>
+                        <li>Google Colab</li>
+                        <li>Jupyter Notebook</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Computer Science</h3>
+                    <ul class="skills-list">
+                        <li>Data Structures & Algorithms</li>
+                        <li>Object-Oriented Programming</li>
+                        <li>Agile Methodology</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Skills</h3>
+                    <ul class="skills-list">
+                        <li>MS Word</li>
+                        <li>MS Excel</li>
+                        <li>Problem Solving</li>
+                        <li>Adaptability</li>
+                        <li>Communication</li>
+                        <li>Team Work</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3> Traffic Control Optamization </h3>
+                    <p>The Objective is, detailing steps for deploying optimized traffic signal timings and monitoring traffic flow for iterative
+                        improvements.
+                        An LightGBM model using the Gaussian Optimization parameters are used with the help of Traffic Prediction Dataset</p>
+                    <div class="project-tech">
+                        <span>DL</span>
+                        <span>Jupyter Notebook</span>
+                        <span>Google Colab</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">🌐</div>
+                    <h3> Transformer-Based Efficient Gaze Estimation(Ongoing)</h3>
+                    <p>The Objective is, detailing steps for predicting gaze targets accurately and improving model performance for iterative
+                        enhancements
+                        An Efficient GazeFormer model using a Swin-Tiny backbone is fine-tuned with AngularLoss on the GazeFollow dataset,
+                        applying data-efficient strategies like lightweight attention mechanisms, mixed-precision training, and dataset split
+                        optimization.</p>
+                    <div class="project-tech">
+                        <span>DL</span>
+                        <span>Jupyter Notebook</span>
+                        <span>Google Colab</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2>Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="certification-icon">🤖</div>
+                    <h3>Internship Studio</h3>
+                    <p>Certificate Of Participation in Common Internship Test- Internship Studio.</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🎓</div>
+                    <h3>NPTEL Elite Certification</h3>
+                    <p>NPTEL Elite Certification in Soft Skills.</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🎓</div>
+                    <h3>NPTEL Certification</h3>
+                    <p>NPTEL Certification in  Privacy and Security.</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🎓</div>
+                    <h3>NPTEL Certification</h3>
+                    <p>NPTEL Certification in  Python.</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🤖</div>
+                    <h3>IBM</h3>
+                    <p>Learning Plan for Mastering Data with Machine Learning Internship on IBM Skills Build (2024).</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🌐</div>
+                    <h3>Agnirva Space Internship</h3>
+                    <p>Course Completion Certificate in Agnirva Space Internship Program</p>
+                </div>
+                <div class="certification-card">
+                    <div class="certification-icon">🤖</div>
+                    <h3>Teachnook</h3>
+                    <p> Course Completion Certificate in Machine Learning with Teachnook in collaboration with Cognizance’24 IIT Roorkee</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="contact-icon">📧</i>
+                        <p>Email:alladimanish2@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="contact-icon">📱</i>
+                        <p>Phone:+91-8332995997</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="contact-icon">📍</i>
+                        <p>Location:India</p>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/manish-alladi-35b365318/" target="_blank" class="social-link">
+                        <i class="social-icon">🔗</i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/Manishalladi" target="_blank" class="social-link">
+                        <i class="social-icon">💻</i>
+                        GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+    <div class="download-resume">
+        <a href="Manish Resume.pdf" class="btn" download="Manish.pdf">Download Resume</a>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Alladi Manish. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
